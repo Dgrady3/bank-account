@@ -60,6 +60,7 @@ puts ''
 purchasing_account.each do |row|
     puts "#{row[:amount]}  withdraw  #{row[:date]}  -  #{row[:description]}"
 end
+puts "======="
 
 
 
